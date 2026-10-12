@@ -2,7 +2,7 @@
 
 A fork of [SilverDecisions](https://github.com/SilverDecisions/SilverDecisions) (version 1.2.1), the free tool for creating and analyzing decision trees. PeppVer adds four optional display settings that make trees easier to read in business analytics courses.
 
-**Try it:** https://chat63791.github.io/SilverDecisionsPeppVer/SilverDecisions.html
+**Try it:** https://silverdecisionspeppver.github.io/SilverDecisionsPeppVer/SilverDecisions.html
 
 All four settings are off by default. With them off, PeppVer looks and behaves like the original SilverDecisions, and trees saved in the original open normally.
 
@@ -51,7 +51,7 @@ Open **Settings** (the gear icon in the top right), scroll down, and click **Oth
 You only need Python 3. The `dev` branch already contains the built site in `docs/`.
 
 ```
-git clone https://github.com/chat63791/SilverDecisionsPeppVer.git
+git clone https://github.com/SilverDecisionsPeppVer/SilverDecisionsPeppVer.git
 cd SilverDecisionsPeppVer/docs
 python3 -m http.server 8080
 ```
@@ -64,10 +64,10 @@ PeppVer is built from source. Nothing is hand-edited in the minified files.
 
 | Repository | Branch | What it holds |
 | --- | --- | --- |
-| [SilverDecisionsPeppVer](https://github.com/chat63791/SilverDecisionsPeppVer) | `dev` | The deployed site (`docs/`), served by GitHub Pages |
-| [SilverDecisionsPeppVer](https://github.com/chat63791/SilverDecisionsPeppVer) | `source-build` | App source: the four checkboxes, their labels, and the About text |
-| [sd-tree-designer](https://github.com/chat63791/sd-tree-designer) | `peppver-display-fixes` | The brackets, thickening, and terminal probability options |
-| [sd-computations](https://github.com/chat63791/sd-computations) | `peppver-rollback-option` | The rollback option |
+| [SilverDecisionsPeppVer](https://github.com/SilverDecisionsPeppVer/SilverDecisionsPeppVer) | `dev` | The deployed site (`docs/`), served by GitHub Pages |
+| [SilverDecisionsPeppVer](https://github.com/SilverDecisionsPeppVer/SilverDecisionsPeppVer/tree/source-build) | `source-build` | App source: the four checkboxes, their labels, and the About text |
+| [sd-tree-designer](https://github.com/SilverDecisionsPeppVer/sd-tree-designer/tree/peppver-display-fixes) | `peppver-display-fixes` | The brackets, thickening, and terminal probability options |
+| [sd-computations](https://github.com/SilverDecisionsPeppVer/sd-computations/tree/peppver-rollback-option) | `peppver-rollback-option` | The rollback option |
 
 Setting names in the code:
 
@@ -85,9 +85,9 @@ You need Node.js, npm, and Python 3. Clone the three repositories side by side:
 ```
 mkdir sd-work
 cd sd-work
-git clone -b source-build https://github.com/chat63791/SilverDecisionsPeppVer.git
-git clone -b peppver-display-fixes https://github.com/chat63791/sd-tree-designer.git
-git clone -b peppver-rollback-option https://github.com/chat63791/sd-computations.git
+git clone -b source-build https://github.com/SilverDecisionsPeppVer/SilverDecisionsPeppVer.git
+git clone -b peppver-display-fixes https://github.com/SilverDecisionsPeppVer/sd-tree-designer.git
+git clone -b peppver-rollback-option https://github.com/SilverDecisionsPeppVer/sd-computations.git
 ```
 
 Install and build:
